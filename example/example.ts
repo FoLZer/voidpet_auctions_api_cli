@@ -17,7 +17,7 @@ async function main() {
 	const filter = new Filter(FilterType.AND, null, [
 		new Filter(FilterType.EQ, null, [
 			new Filter(FilterType.FIELD, ["item_id"], null),
-			new Filter(FilterType.STRING, ["147", "148", "149", "146", "150", "162", "276"], null) //Works as OR (only in EQ FilterType)
+			new Filter(FilterType.I32, ["147", "148", "149", "146", "150", "162", "276"], null) //Works as OR (only in EQ FilterType)
 		]),
 		new Filter(FilterType.OR, null, [
 			new Filter(FilterType.LESS, null, [
