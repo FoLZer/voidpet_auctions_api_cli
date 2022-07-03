@@ -1,4 +1,4 @@
-import { Api, Subscription, Filter, FilterType, SubscriptionType } from "../src";
+import { Api, Subscription, Filter, FilterType, SubscriptionType } from "..";
 
 /*
 	Fields: [
